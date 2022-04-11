@@ -12,7 +12,7 @@ namespace Catalog.Service.Data
 			{
 				productCollection.InsertManyAsync(GetPreConfiguredProducts());
 			}
-		}
+        }
 
 		private static IEnumerable<Product> GetPreConfiguredProducts()
 		{
