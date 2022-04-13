@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.Service", "Services\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiscountService", "DiscountService", "{46991284-C736-45AC-A7E4-9286078C2493}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Service", "Services\DiscountService\Discount.Service\Discount.Service.csproj", "{587ED30C-881E-4B11-8D20-9E053D063C9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Service", "Services\DiscountService\Discount.Service\Discount.Service.csproj", "{587ED30C-881E-4B11-8D20-9E053D063C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\DiscountService\Discount.Grpc\Discount.Grpc.csproj", "{0DA76447-DA84-44B9-82CF-3370CEC32A4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{587ED30C-881E-4B11-8D20-9E053D063C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{587ED30C-881E-4B11-8D20-9E053D063C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{587ED30C-881E-4B11-8D20-9E053D063C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA76447-DA84-44B9-82CF-3370CEC32A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA76447-DA84-44B9-82CF-3370CEC32A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA76447-DA84-44B9-82CF-3370CEC32A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA76447-DA84-44B9-82CF-3370CEC32A4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{AFA2EDE5-7141-4680-B188-CA4E547C27F4} = {85D00C03-42CC-44A3-A98B-B4203D591E77}
 		{46991284-C736-45AC-A7E4-9286078C2493} = {418D8874-7C3F-40FC-9C9C-420EFD765993}
 		{587ED30C-881E-4B11-8D20-9E053D063C9B} = {46991284-C736-45AC-A7E4-9286078C2493}
+		{0DA76447-DA84-44B9-82CF-3370CEC32A4C} = {46991284-C736-45AC-A7E4-9286078C2493}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8809CA9B-820D-4E3F-A1A8-9F307F119C27}
