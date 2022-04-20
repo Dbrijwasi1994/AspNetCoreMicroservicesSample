@@ -20,63 +20,133 @@ namespace Catalog.Service.Data
             {
                 new Product()
                 {
-                    Id = "602d2149e773f2a3990b47f5",
-                    Name = "IPhone X",
-                    Summary = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
+                    Id = "625efde0fc13ae41b000003a",
+                    Name = "Electrician",
+                    Category = "Home Repairs",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
                     ImageFile = "product-1.png",
-                    Price = 950.00M,
-                    Category = "Smart Phone"
+                    Price = 225.50M
                 },
                 new Product()
                 {
-                    Id = "602d2149e773f2a3990b47f6",
-                    Name = "Samsung 10",
-                    Summary = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
-                    ImageFile = "product-2.png",
-                    Price = 840.00M,
-                    Category = "Smart Phone"
+                    Id = "625efde0fc13ae41b000003b",
+                    Name = "Carpenter",
+                    Category = "Home Repairs",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 275.50M
                 },
                 new Product()
                 {
-                    Id = "602d2149e773f2a3990b47f7",
-                    Name = "Huawei Plus",
-                    Summary = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
-                    ImageFile = "product-3.png",
-                    Price = 650.00M,
-                    Category = "White Appliances"
+                    Id = "625efde0fc13ae41b000003c",
+                    Name = "Plumber",
+                    Category = "Home Repairs",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 235.50M
                 },
                 new Product()
                 {
-                    Id = "602d2149e773f2a3990b47f8",
-                    Name = "Xiaomi Mi 9",
-                    Summary = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
-                    ImageFile = "product-4.png",
-                    Price = 470.00M,
-                    Category = "White Appliances"
+                    Id = "625efde0fc13ae41b000003d",
+                    Name = "Painter",
+                    Category = "Home Utility",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 325.50M
                 },
                 new Product()
                 {
-                    Id = "602d2149e773f2a3990b47f9",
-                    Name = "HTC U11+ Plus",
-                    Summary = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
-                    ImageFile = "product-5.png",
-                    Price = 380.00M,
-                    Category = "Smart Phone"
+                    Id = "625efde0fc13ae41b000003e",
+                    Name = "Cleaner",
+                    Category = "Home Utility",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 205.50M
                 },
                 new Product()
                 {
-                    Id = "602d2149e773f2a3990b47fa",
-                    Name = "LG G7 ThinQ",
-                    Summary = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
-                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
-                    ImageFile = "product-6.png",
-                    Price = 240.00M,
-                    Category = "Home Kitchen"
+                    Id = "625efde0fc13ae41b000003f",
+                    Name = "Pest Control",
+                    Category = "Home Utility",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 125.50M
+                },
+                new Product()
+                {
+                    Id = "625efde0fc13ae41b000003g",
+                    Name = "Spa",
+                    Category = "Personal Care",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 525.50M
+                },
+                new Product()
+                {
+                    Id = "625efde0fc13ae41b000003h",
+                    Name = "Salon",
+                    Category = "Personal Care",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 95.50M
+                },
+                new Product()
+                {
+                    Id = "625efde0fc13ae41b000003i",
+                    Name = "Therapist",
+                    Category = "Personal Care",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 425.50M
+                },
+                new Product()
+                {
+                    Id = "625efde0fc13ae41b000003j",
+                    Name = "Yoga Trainer",
+                    Category = "Health",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 185.50M
+                },
+                new Product()
+                {
+                    Id = "625efde0fc13ae41b000003k",
+                    Name = "Doctor",
+                    Category = "Health",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 125.50M
+                },
+                new Product()
+                {
+                    Id = "625efde0fc13ae41b000003l",
+                    Name = "AC Servicing",
+                    Category = "Appliance Repair",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 345.50M
+                },
+                new Product()
+                {
+                    Id = "625efde0fc13ae41b000003m",
+                    Name = "TV/Refrigerator Servicing",
+                    Category = "Appliance Repair",
+                    Summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lectus non justo mattis accumsan in sed magna.",
+                    Description = "Sed deserunt esse qui consequatur consequatur sed sint saepe aut quam dolores qui aliquam omnis et aliquid vero eos esse cumque? Qui quis magni 33 ipsa amet non dignissimos fugiat 33 saepe possimus et animi voluptas eos debitis magnam est dolorem vero. Hic iure neque non voluptatem alias et nihil optio ut perspiciatis natus et nemo minus qui quod doloribus.",
+                    ImageFile = "product-1.png",
+                    Price = 265.50M
                 }
             };
         }
