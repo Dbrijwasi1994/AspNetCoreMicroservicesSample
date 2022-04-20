@@ -10,6 +10,9 @@ services:
   discountdb:
     image: postgres
 
+  orderdb:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+
   pgadmin:
     image: dpage/pgadmin4
 
@@ -40,10 +43,17 @@ services:
       context: .
       dockerfile: Services/DiscountService/Discount.Grpc/Dockerfile
 
+  ordering.service:
+    image: ${DOCKER_REGISTRY-}orderingservice
+    build:
+      context: .
+      dockerfile: Services/OrderingService/Ordering.Service/Dockerfile
+
 volumes:
   mongo_data:
   portainer_data:
   postgres_data:
   pgadmin_data:
+
 
 
